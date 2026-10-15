@@ -1,3 +1,15 @@
+"""
+Problem: Count Even Numbers
+
+Description:
+Count how many even numbers are present in the array.
+
+Example:
+Input:  [1, 2, 3, 4, 6, 7, 8]
+Output: 4
+"""
+
+
 class Solution:
     def count_even(self, arr):
         count = 0
@@ -8,4 +20,4 @@ class Solution:
 
 
 arr = [1, 2, 3, 4, 6, 7, 8]
-print(Solution().count_even(arr))  
+print(Solution().count_even(arr))

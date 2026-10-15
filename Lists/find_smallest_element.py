@@ -1,3 +1,15 @@
+"""
+Problem: Find Smallest Element
+
+Description:
+Find the smallest element in the array.
+
+Example:
+Input:  [7, 3, 9, 1, 5]
+Output: 1
+"""
+
+
 class Solution:
     def smallest(self, arr):
         small = arr[0]
@@ -8,4 +20,4 @@ class Solution:
 
 
 arr = [7, 3, 9, 1, 5]
-print(Solution().smallest(arr)) 
+print(Solution().smallest(arr))
